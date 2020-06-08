@@ -472,7 +472,6 @@ public final class Bootstrap {
             } else if (command.equals("start")) {
                 daemon.setAwait(true);
                 daemon.load(args);
-                System.out.println("-------------------------------------------");
                 System.out.println("------------------ start ------------------");
                 System.out.println("-------------------------------------------");
                 System.out.println("********* >> Boostrap start...");
